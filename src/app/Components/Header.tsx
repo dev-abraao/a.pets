@@ -13,11 +13,26 @@ const arrayMenu: MenuItem[] = [
 ];
 
 export function Header() {
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const handleItemClick = (index: number, target: string): void => {
+    setActiveIndex(index);
+    window.location.href = target;
+  };
+
   return (
     <header>
       <div>
         <div>
-          <nav></nav>
+          <nav>
+            {arrayMenu.map((item: MenuItem, index: number) => (
+              <button
+                key={index}
+                onClick={() => handleItemClick(index, item.target)}
+              >
+                {item.name}
+              </button>
+            ))}
+          </nav>
         </div>
       </div>
     </header>
