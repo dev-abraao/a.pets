@@ -1,5 +1,5 @@
-import Header from './(layoutgroup)/Header'
-import Footer from './(layoutgroup)/Footer'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import './globals.css'
 import { Poppins } from '@next/font/google'
 
