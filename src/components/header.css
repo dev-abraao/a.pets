@@ -1,12 +1,14 @@
 header {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 15vh;
+    height: 150px;
     background-color: #F8F8FF;
     color: #0CBBFE;
 }
 
 header h1{
-    font-size: 4em;
+    font-size: 6em;
+    margin: 0;
 }

@@ -1,7 +1,6 @@
-"use client";
 import './header.css'
-import { useState } from "react";
-import Image from 'next/image'
+import Image from 'next/image';
+import { pacifico } from '../app/layout';
 
 type MenuItem = {
   name: string;
@@ -16,8 +15,9 @@ const arrayMenu: MenuItem[] = [
 export default function Header() {
   return (
     <header>
-        <Image src='/pata.svg' alt='PataLogo' width="150" height="100" style={{ color: "#0CBBFE"}}></Image>
-        <h1>a.pets</h1>
+        <Image src='/pata.svg' alt='PataLogo' width="150" height="100"></Image>
+        <h1 className={pacifico.className}>a.Pets</h1>
+        <button>Entrar</button>
     </header>
   );
 }
