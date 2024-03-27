@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+h2 {
+    margin: 0;
+    color: #0CBBFE;
+}
+
+p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.infobold {
+    font-weight: bold;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.info1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info2 {
+    display: flex;
+}
+
+.info2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: end;
+}
