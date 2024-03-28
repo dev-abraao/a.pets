@@ -1,4 +1,6 @@
 header {
+    position: relative;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,6 +9,7 @@ header {
     width: 100vw;
     background-color: #F8F8FF;
     color: #0CBBFE;
+    box-shadow: 5px 0px 10px rgb(145, 145, 145);
 }
 
 header h1{

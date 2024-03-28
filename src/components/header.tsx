@@ -1,5 +1,6 @@
 import './header.css'
 import Image from 'next/image';
+import Link from 'next/link';
 import { pacifico } from '../app/layout';
 
 type MenuItem = {
@@ -17,7 +18,9 @@ export default function Header() {
     <header>
         <Image src='/pata.svg' alt='PataLogo' width="150" height="100"></Image>
         <h1 className={pacifico.className}>a.Pets</h1>
-        <button>Entrar</button>
+        <Link href='/login'>
+          <button>Entrar</button>
+        </Link>
     </header>
   );
 }

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import './home.css'
 
 
@@ -24,11 +25,14 @@ export default function Home(){
                 </div>
                 <div className="container-register">
                     <div className='reg-text'>
-                        <p className='register register-1'>Cadastre-se</p>
-                        <h1 className='register register-2'>AQUI!</h1>
+                        <p className='register'>Cadastre-se <br /><span className='aqui'>AQUI!</span></p>
                     </div>
-                        <button className='register-btn'>Cadastrar</button>
-                        <p className='smalltext'>* Você será redirecionado para uma nova página <br /> para completar seu cadastro.</p>
+                        <div className='btn-wrapper'>
+                            <Link href='/register'>
+                                <button className='register-btn'>Cadastrar</button>
+                            </Link>
+                            <p className='smalltext'>* Você será redirecionado para uma nova<br /> página para completar seu cadastro.</p>
+                        </div>
                 </div>
             </div>
             </>

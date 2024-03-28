@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
     justify-content: space-around;
+    background-color: white;
 
 }
 
@@ -47,6 +48,7 @@ p {
 
 .container-register {
     background-color: #0CBBFE;
+    border: 1px solid rgb(145, 145, 145);
     border-radius: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -55,8 +57,9 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 45px;
+    gap: 100px;
     align-items: center;
+    box-shadow: 5px 5px 10px rgb(145, 145, 145);
 }
 
 .register {
@@ -66,8 +69,10 @@ p {
 }
 
 .smalltext {
+    text-align: center;
     color: white;
     font-weight: 200;
+    font-size: 0.9rem;
 }
 
 .reg-text {
@@ -85,6 +90,7 @@ p {
     padding-bottom: 25px;
     padding-left: 100px;
     padding-right: 100px;
+    margin-bottom: 10px;
 }
 
 .register-btn:hover{
@@ -92,13 +98,15 @@ p {
     background-color: #004966;
 }
 
-.register-1 {
+.register {
+    line-height: 5rem;
     font-weight: 200;
 }
 
-.register-2 {
+.aqui {
     font-weight: 900;
-    font-size: 6rem;
+    font-size: 8rem;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
 }
+
