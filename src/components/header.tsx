@@ -1,7 +1,7 @@
-import './header.css'
-import Image from 'next/image';
-import Link from 'next/link';
-import { pacifico } from '../app/layout';
+import "./header.css";
+import Image from "next/image";
+import Link from "next/link";
+import { pacifico } from "../app/layout";
 
 type MenuItem = {
   name: string;
@@ -16,11 +16,13 @@ const arrayMenu: MenuItem[] = [
 export default function Header() {
   return (
     <header>
-        <Image src='/pata.svg' alt='PataLogo' width="150" height="100"></Image>
-        <h1 className={pacifico.className}>a.Pets</h1>
-        <Link href='/login'>
-          <button>Entrar</button>
+        <Image src="/pata.svg" alt="PataLogo" width="150" height="100"></Image>
+        <Link href='/'>
+          <h1 className={pacifico.className}>a.Pets</h1>
         </Link>
+      <Link href="/login">
+        <button>Entrar</button>
+      </Link>
     </header>
   );
 }
