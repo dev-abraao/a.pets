@@ -9,9 +9,9 @@ export const metadata = {
   description: 'Venha cadastrar ou adotar um animalzinho!',
 }
 
- const poppins = Poppins({
+const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['100', '400', '500','700'],
+  weight: ['100','200', '400', '500','700', '900'],
 })
 
 export const pacifico = Pacifico({
@@ -30,7 +30,7 @@ export default function RootLayout({
         <Header/>
         <main>{children}</main>
         <Footer/>
-        </body>
+      </body>
     </html>
   )
 }

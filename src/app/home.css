@@ -1,12 +1,12 @@
 .wrapper {
     display: flex;
+    justify-content: space-around;
 
 }
 
 .container-info {
     display: flex;
     flex-direction: column;
-    padding: 50px;
 }
 
 h2 {
@@ -43,4 +43,62 @@ p {
     flex-direction: column;
     justify-content: center;
    text-align: end;
+}
+
+.container-register {
+    background-color: #0CBBFE;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+    align-items: center;
+}
+
+.register {
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+}
+
+.smalltext {
+    color: white;
+    font-weight: 200;
+}
+
+.reg-text {
+    text-align: center;
+}
+
+.register-btn {
+    background-color: #015C7F;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.register-btn:hover{
+    cursor: pointer;
+    background-color: #004966;
+}
+
+.register-1 {
+    font-weight: 200;
+}
+
+.register-2 {
+    font-weight: 900;
+    font-size: 6rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
 }
