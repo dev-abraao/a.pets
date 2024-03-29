@@ -21,7 +21,7 @@ export default function Header() {
           <h1 className={pacifico.className}>a.Pets</h1>
         </Link>
       <Link href="/login">
-        <button>Entrar</button>
+        <button className="log-in">Entrar</button>
       </Link>
     </header>
   );
