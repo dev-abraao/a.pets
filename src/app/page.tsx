@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import  RegBox from '../components/register-box'
 import './home.css'
 
 
@@ -23,17 +23,7 @@ export default function Home(){
                     <Image src='/pet1.jpg' alt='pet-image1' width={350} height={350}/>
                     </div>
                 </div>
-                <div className="container-register">
-                    <div className='reg-text'>
-                        <p className='register'>Cadastre-se <br /><span className='aqui'>AQUI!</span></p>
-                    </div>
-                        <div className='btn-wrapper'>
-                            <Link href='/register'>
-                                <button className='register-btn'>Cadastrar</button>
-                            </Link>
-                            <p className='smalltext'>* Você será redirecionado para uma nova<br /> página para completar seu cadastro.</p>
-                        </div>
-                </div>
+                <RegBox/>
             </div>
             </>
 }
