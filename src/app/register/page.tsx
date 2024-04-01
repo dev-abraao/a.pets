@@ -1,5 +1,4 @@
 import "./register.css";
-import BtnCadastrar from "@/components/btn-cadastrar";
 
 export default function Register() {
   return (
@@ -28,7 +27,9 @@ export default function Register() {
             </div>
           </div>
         </form>
-        <BtnCadastrar/>
+        <div className="btn-div">
+          <button className="btn-reg">Cadastrar</button>
+        </div>
       </div>
     </div>
   );
