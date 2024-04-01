@@ -1,3 +1,9 @@
 export default function Register() {
-    return <h1>página de cadastro</h1>
+    return (
+        <div className="wrapper">
+            <div className="register-container">
+
+            </div>
+        </div>
+    )
 }
