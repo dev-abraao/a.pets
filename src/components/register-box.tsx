@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import './register-box.css'
+
 
 export default function RegBox() {
   return (

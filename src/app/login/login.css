@@ -1,0 +1,13 @@
+.login-background {
+    display: flex;
+    background-color: #015C7F;
+    justify-content: space-around;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #0CBBFE;
+    margin: 30px 0px;
+    border-radius: 25px;
+}

@@ -46,22 +46,6 @@ p {
    text-align: end;
 }
 
-.container-register {
-    background-color: #0CBBFE;
-    border: 1px solid rgb(145, 145, 145);
-    border-radius: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
-    box-shadow: 5px 5px 10px rgb(145, 145, 145);
-}
-
 .register {
     font-size: 3rem;
     color: white;
